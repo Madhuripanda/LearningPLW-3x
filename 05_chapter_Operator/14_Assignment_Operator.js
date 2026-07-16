@@ -1,7 +1,7 @@
 //  Assignment Operators
 
 let x = 10;
-x = "PrrammodDutta";
+x = "Madhuri";
 console.log(x);
 
 
