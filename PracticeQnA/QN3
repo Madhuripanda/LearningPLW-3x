@@ -1,0 +1,38 @@
+let i = 3, count = 0;
+do {
+  count++;
+} while (i-- > 0);
+console.log(count + " " + i);
+
+
+
+/*A) 3 0
+
+
+
+B) 4 0
+
+
+
+C) 4 -1
+
+
+
+D) 3 -1
+*/
+
+/*Why is count = 4?
+
+Because do...while executes the body first, then checks the condition.
+
+Even when i becomes 0, the loop body runs one last time before checking 0 > 0.
+
+Interview Answer
+
+If the interviewer asks, "What is the output and why?", you can say:
+
+Output: 4 -1
+
+Reason: A do...while loop executes its body before checking the condition. The condition uses i--, which is a post-decrement operator. It compares the current value of i with 0 first, then decrements i. On the last iteration, the body executes when i is 0, count becomes 4, the condition 0 > 0 evaluates to false, and then i is decremented to -1, ending the loop.
+*/
+
