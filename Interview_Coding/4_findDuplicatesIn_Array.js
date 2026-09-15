@@ -12,3 +12,4 @@ for(let i=0; i<arr.length; i++){
 if (!found) {
     console.log("No duplicates found");
 }
+//"I used a JavaScript object as a hash map to track elements already seen. While traversing the array, if an element is already present in the object, it is a duplicate and gets printed.

@@ -3,3 +3,20 @@ while (i < NaN) {
   i++;
 }
 console.log(i);
+
+/*A) 0
+
+
+
+B) Infinite loop
+
+
+
+C) NaN
+
+
+
+D) 1
+Because NaN is not comparable. Any comparison (<, >, <=, >=, ==, ===) involving NaN returns false. 
+Since the condition i < NaN is false on the first check, the loop body never executes.
+*/

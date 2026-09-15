@@ -5,5 +5,6 @@ if (reverse=== Str){
     console.log("YES")
 }
 else{
+    
     console.log("NO");
 }
